@@ -1,0 +1,19 @@
+ cd gitrepo/
+   70  git init
+   71  git clone https://github.com/Kedarnadh-practice/February.git
+   72  ll
+   73  cat >> test1
+   74  cat test1 
+   75  cat >> test2
+   76  cat test2 
+   77  vi test2 
+   78  git status
+   79  git add test1 test2 
+   80  git status
+   81  git commit -m "first commit"
+   82  git push
+   83  git status
+   84  git push origin master
+   85  git remote add origin https://github.com/Kedarnadh-practice/February.git
+   86  git push -u origin main
+   87  git push origin master
